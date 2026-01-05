@@ -1,171 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Meat Emporium Bali | Premium Australian Meats & Steakhouse</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Meat Emporium - Premium Australian Meats & Steakhouse</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar" aria-label="Main navigation">
-      <a class="brand" href="/">
-        <span>TME</span>
-        <div>
-          The Meat Emporium
-          <div class="hero-sub">Premium Australian Meats & Steakhouse · Bali</div>
-        </div>
-      </a>
-      <div class="nav-links">
-        <a href="/butcher/">Butcher Shop</a>
-        <a href="/steakhouse/">Steakhouse</a>
-        <a href="https://www.instagram.com/themeatemporiumbali/" target="_blank" rel="noreferrer">Instagram</a>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <div class="hero-badges">
-          <div class="hero-badge">Premium Butcher · Bali</div>
-          <div class="hero-badge">BBQ Concept · Steakhouse</div>
-        </div>
-        <h1>Fire-kissed steaks, boutique butcher, and Bali's favourite BBQ concept.</h1>
-        <p>Choose your cuts from our butcher, grill them yourself, or let our chefs finish with smoke, flame, and buttery sauces. Designed to feel like a premium Pinterest board—rich visuals, clean lines, and warmth throughout.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" data-whatsapp="I want to order meats from The Meat Emporium." aria-label="WhatsApp order">WhatsApp Order</a>
-          <a class="btn btn-ghost" href="/butcher/">Explore Butcher</a>
-          <a class="btn btn-ghost" href="/steakhouse/">Book Steakhouse</a>
-        </div>
-        <div class="pill-row" style="margin-top: 16px;">
-          <span>Grassfed & Grainfed Angus</span>
-          <span>BBQ & Private Events</span>
-          <span>Wine, Cocktails & Craft Beers</span>
-        </div>
-      </div>
-      <div class="hero-stack">
-        <div class="hero-card" style="min-height: 220px;">
-          <img src="https://images.unsplash.com/photo-1553163147-622ab57be1c7?auto=format&fit=crop&w=1200&q=80" alt="Marbled steak" />
-          <div class="hero-card-content">
-            <span>Signature Cuts</span>
-            <h3>Black Angus Ribeye, Wagyu Flat Iron, Butcher-curated marbling.</h3>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img src="https://images.unsplash.com/photo-1559057005-53c1ff5c5b57?auto=format&fit=crop&w=1200&q=80" alt="Steakhouse plating" />
-          <div class="hero-card-content">
-            <span>Steakhouse Vibes</span>
-            <h3>Open flame, ember glow, and sauces that hug every steak.</h3>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img src="https://images.unsplash.com/photo-1481931098730-318b6f776db0?auto=format&fit=crop&w=1200&q=80" alt="BBQ platter" />
-          <div class="hero-card-content">
-            <span>BBQ Concept</span>
-            <h3>Pick your cuts, grill together, or book a private BBQ garden.</h3>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Landing Page -->
+  <div class="landing-page">
+    <h1>The Meat Emporium</h1>
+    <p class="subheading">Premium Australian Meats & Steakhouse</p>
 
-    <section>
-      <div class="section-heading">
-        <h2>Two ways to feast</h2>
-        <p>Butcher retail by day, steakhouse and BBQ playground by night.</p>
-      </div>
-      <div class="cards-grid">
-        <div class="info-card">
-          <strong>Butcher Shop</strong>
-          <p>Premium Australian beef, house sausages, smoked salmon, pies, and pantry staples. Cut to order with chef tips.</p>
-          <div class="menu-cta" style="margin-top: 12px;">
-            <a class="btn btn-primary" href="/butcher/">See Butcher Menu</a>
-            <a class="btn btn-ghost" data-whatsapp="I'd like to pre-order meats from the butcher.">WhatsApp Order</a>
-          </div>
-        </div>
-        <div class="info-card">
-          <strong>Steakhouse + BBQ Concept</strong>
-          <p>Grill your own or let us cook it. Burgers, sides, sauces, and a curated bar of wine, cocktails, and beers.</p>
-          <div class="menu-cta" style="margin-top: 12px;">
-            <a class="btn btn-primary" href="/steakhouse/">Reserve Table</a>
-            <a class="btn btn-ghost" data-whatsapp="I'd like to book a private BBQ at The Meat Emporium.">Book Private BBQ</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-heading">
-        <div>
-          <h2 id="instagram-status">Latest from Instagram</h2>
-          <p class="subtitle">Live visuals pulled directly—no downloads, always fresh.</p>
-        </div>
-        <a class="btn btn-ghost" href="https://www.instagram.com/themeatemporiumbali/" target="_blank" rel="noreferrer">Open Instagram</a>
-      </div>
-      <div id="instagram-grid" class="masonry-grid" aria-live="polite"></div>
-    </section>
-
-    <section>
-      <div class="section-heading">
-        <h2>What guests love</h2>
-        <p>Warm service, bold flavour, and steaks that steal the grid.</p>
-      </div>
-      <div class="testimonials">
-        <div class="quote">“Perfect marbling and the chefs guided us on temps. Felt like a private chef's table.”<strong>— BBQ Guest</strong></div>
-        <div class="quote">“Burger nights, crispy fries in beef tallow, and cocktails that taste like holiday sunsets.”<strong>— Regular</strong></div>
-        <div class="quote">“Ordered via WhatsApp, picked up vacuum-packed. Best butcher experience in Bali.”<strong>— Home Griller</strong></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-heading">
-        <h2>Find us</h2>
-        <p>Tap to navigate. Walk-ins welcome; reservations recommended for steakhouse and BBQ.</p>
-      </div>
-      <div class="location">
-        <div>
-          <strong style="font-size: 18px;">The Meat Emporium Bali</strong>
-          <p class="light-text">Premium Australian meats, steakhouse, and BBQ garden concept.</p>
-          <div class="menu-cta">
-            <a class="btn btn-primary" data-maps>Open in Google Maps</a>
-            <a class="btn btn-ghost" data-whatsapp="I'd like directions to The Meat Emporium Bali.">Message on WhatsApp</a>
-          </div>
-        </div>
-        <div class="map-preview">
-          <div style="font-weight:700; margin-bottom:6px;">Open Map</div>
-          <div>Tap “Open in Google Maps” to navigate. Parking and drop-off available.</div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div>
-      <strong>The Meat Emporium</strong><br />Premium Australian Meats & Steakhouse · Bali
-    </div>
-    <div class="menu-cta">
-      <a class="btn btn-ghost" data-whatsapp="Hi! I'd like to know today's specials.">WhatsApp</a>
-      <a class="btn btn-ghost" href="https://www.instagram.com/themeatemporiumbali/" target="_blank" rel="noreferrer">Instagram</a>
-    </div>
-  </footer>
-
-  <div id="media-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Instagram media dialog">
-    <div class="modal-content">
-      <button class="modal-close btn btn-ghost" aria-label="Close media">Close</button>
-      <img src="" alt="Instagram media" />
-      <div class="modal-body">
-        <h3 data-modal-title></h3>
-        <div class="meta" data-modal-meta></div>
-        <a class="btn btn-primary" data-modal-link target="_blank" rel="noreferrer">View on Instagram</a>
-      </div>
+    <div class="landing-buttons">
+      <a href="butcher.html" class="btn-large">Butcher Shop</a>
+      <a href="steakhouse.html" class="btn-large">Steakhouse</a>
     </div>
   </div>
 
-  <script type="module" src="/assets/js/menu-data.js"></script>
-  <script type="module" src="/assets/js/main.js"></script>
-  <script type="module" src="/assets/js/modal.js"></script>
-  <script type="module" src="/assets/js/instagram.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>

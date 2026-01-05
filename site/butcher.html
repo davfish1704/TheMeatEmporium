@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Meat Emporium | Butcher Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="chalk-bg">
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="./index.html">The Meat Emporium</a>
+      <nav class="nav-links">
+        <a href="./butcher.html" class="active">Butcher Shop</a>
+        <a href="./steakhouse.html">Steakhouse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--butcher">
+      <div class="hero__content container">
+        <p class="eyebrow">Butcher Shop</p>
+        <h1 class="page-title">Australian Cuts, Ready for Your Grill</h1>
+        <p class="intro">Select your preferred cuts, add quantities, and send your order directly through WhatsApp. Simple, personal, and always premium.</p>
+      </div>
+    </section>
+
+    <section class="container order-panel" id="order-panel">
+      <div>
+        <h2 class="section-title">Your WhatsApp Order</h2>
+        <p class="muted">Add items below. When you're ready, review and send your order in one click.</p>
+        <ul class="order-list" id="order-list"></ul>
+        <div class="order-actions">
+          <button class="btn" id="send-order">Send WhatsApp Order</button>
+          <button class="btn btn-outline" id="clear-order">Clear</button>
+        </div>
+        <p class="muted">A draft message will open in WhatsApp for you to confirm.</p>
+      </div>
+    </section>
+
+    <section class="menu-section container" id="product-section">
+      <div class="section-header">
+        <h2 class="section-title">Butcher Products</h2>
+        <p class="muted">All prices in IDR. Items marked with tax include an additional 10% tax.</p>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Products injected by JavaScript for consistent structure -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="brand">The Meat Emporium</p>
+        <p class="muted">Premium Australian meats prepared to order.</p>
+      </div>
+      <div class="footer__links">
+        <a href="./butcher.html">Butcher Shop</a>
+        <a href="./steakhouse.html">Steakhouse</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
